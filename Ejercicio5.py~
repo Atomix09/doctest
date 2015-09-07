@@ -4,15 +4,12 @@
 def unidad(pesos,dolar):
 
 	"""
-	>>> unidad(200,17)
-	3400
-	200
+	>>> unidad(20,17)
+	340
 	"""
-        pesos = pesos * dolar
-        dolares = pesos/17
-	
-	print pesos
-	print dolares
+        conversion = pesos * dolar
+
+	print conversion
 
 
 
